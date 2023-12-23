@@ -13,7 +13,7 @@ class BnavigationBar extends StatefulWidget{
 
 }
 class _BnavigationBarState extends State<BnavigationBar>{
-  int index=0;
+
   final pages =[
     ProfileScreen(),
     Container(
@@ -37,9 +37,9 @@ class _BnavigationBarState extends State<BnavigationBar>{
       child: hoppy(),
     ),
   ];
-
+  int index=0;
   int index2=0;
-  void x1(int index){
+  void x1( index){
     setState(() {
       index2=index;
     });

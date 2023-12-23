@@ -99,6 +99,7 @@ class SecondScreen extends StatelessWidget {
                 children: [
                   Text("Portfolio",style: TextStyle(
                       fontSize: 50,
+                      fontFamily: 'HedvigLettersSerif',
                       fontWeight: FontWeight.w600,
                       letterSpacing: 5,
                       color: Color(0xff90807F)
